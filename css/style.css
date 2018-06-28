@@ -1,0 +1,332 @@
+/*Table Content
+==========================
+    # General
+        - Fonts
+    # Links
+    # Headings
+    # Lists
+    # Images
+*/
+
+
+/* General
+======================= */
+/* Fonts */
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(../vendor/fonts/OpenSans-Bold.ttf);
+}
+
+body{
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.main {
+
+}
+/* Links
+==========================*/
+a{
+    
+}
+a, a:hover, a:focus{
+    text-decoration: none;
+}
+/* Headings 
+========================== */
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+/*Lists
+==========================*/
+ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Images
+=========================== */
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* Section Setting
+============================ */ 
+.section-lg{
+    padding: 50px 0;
+}
+.section-sm{
+    padding: 25px 0;
+}
+
+/* ============================== */
+/* -------------section header -- */
+.header{
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 1px
+}
+.header .links{
+    margin-bottom: -10px
+}
+.header .links .links-div{
+    margin-left: 100px
+}
+.header .links i{
+    font-size: 22px;
+    background-color: #063c61;
+    color: #FFF;
+    padding: 5px;
+    transition: .4s ease-in-out all 
+}
+.header .links i:hover{
+    background-color: #f57f21;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.header .links .login-search .arab-btn{
+    border: none;
+    background-color: #f57f21;
+    color: #FFF;
+    padding: 5px;
+    margin-bottom: -20px
+}
+.header .links .login-search .arab-btn:hover{
+    color: #f57f21;
+    background-color: #063c61;
+    transform: scale(1.2);
+}
+.login-btn{
+    width: 100px;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 40px;
+    background-image: url(../images/login-icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: #FFF;
+    background-color: #063c61;
+}
+.login-btn:hover{
+    color: #063c61;
+    background-color: #f57f21;
+    text-decoration: underline
+}
+/* ------------------------section nav ---------- */
+.nav{
+    background-color: rgb(18, 82, 127);
+}
+.nav .navbar{
+    margin-bottom: auto;
+    color: #FFF;
+    background-color: rgb(18, 82, 127);
+    border: none
+}
+.nav .navbar li{
+    color: #FFF
+}
+.nav .navbar li a{
+    color: #FFF
+}
+.nav .navbar li:hover,.nav .navbar li a:hover{
+    background-color:  #053557;
+    color: #FFF
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+     background-color:  #053557;
+     color: #FFF
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+    background-color:  #053557;
+     color: #FFF
+}
+.navbar-nav > li > .dropdown-menu{
+    background-color:  #053557;
+     color: #FFF
+}
+.nav .navbar li:hover, .nav .navbar li a:hover {
+    background-color: rgb(18, 82, 127);
+    color: #FFF;
+}
+/* -------------------------- section result ------- */
+.result{
+    background: linear-gradient(rgba(5, 73, 120,0.7),rgba(5, 73, 120,0.9)),url(../images/bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #FFF
+}
+.result h2{
+    margin-bottom: 20px
+}
+.result span{
+    color: #e56a6a;
+    display: inline
+    
+}
+.result a{
+    color: #e56a6a
+}
+.result a:hover{
+    cursor: pointer;
+    color: #509dbd
+}
+.result p{
+    display: inline;
+    color: #509dbd
+}
+/* ---------------------------- section content ---------------- */
+.l-content{
+    position: relative
+}
+.l-content:after{
+    position: absolute;
+    content: "";
+    right: -15px;
+    top: 0px;
+    width: 1px;
+    height: 100%;
+    background-color: #eee
+}
+.l-content .link{
+    position: relative
+}
+.l-content .link a{
+    margin-left: 20px;
+    color: #4d4d4d;
+    cursor: pointer
+}
+.l-content .link .rright{
+    position: absolute;
+    right: 10px;
+    top: 0px
+}
+.r-content{
+    
+}
+.r-content p{
+    color: #f57f21;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 18px
+}
+.r-content .org-btn{
+    background-color: #f57f21;
+    color: #FFF;
+    font-weight: bold;
+    padding: 7px;
+    border: none;
+    display: block;
+    margin-bottom: 20px
+}
+.r-content .form{
+    direction: rtl;
+    font-size: 18px
+}
+/* ----------------- section contact-us ------- */
+.contact{
+     background: linear-gradient(rgba(5, 73, 120,0.9),rgba(5, 73, 120,0.9)),url(../images/bgimg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+    background-attachment: fixed;
+     color: #eeeeee
+}
+.contact li{
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    transition: .3s ease-in-out all
+}
+.contact li:after{
+    position: absolute;
+    content: "\f054";
+    font-family: FontAwesome;
+    top: 0;
+    left: -15px;
+    color: #eeeeee
+}
+.contact li:hover{
+    color: #FFF;
+    margin-left: 25px;
+    cursor: pointer
+}
+.contact .contact-us label{
+    color: #f57f21;
+}
+.contact .contact-us p{
+   color: #62a0cb    
+}
+.contact .contact-us .phone span{
+    color: #f57f21
+}
+.contact .contact-us .phone i{
+    background-color: #053557;
+    padding: 6px
+}
+.contact .contact-us .phone i:hover{
+    cursor: pointer;
+    background-color: #f57f21
+}
+.contact .contact-us .phone span i{
+    background-color: #619fca;
+    border-radius: 7px;
+    padding: 5px;
+    margin-right: 15px;
+    color: #094676;
+}
+.contact .contact-us .phone font{
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    color: #62a0cb 
+}
+
+.contact .contact-us .mail span{
+    color: #f57f21
+}
+.contact .contact-us .mail span i{
+    background-color: #619fca;
+    border-radius: 7px;
+    padding: 5px;
+    margin-right: 15px;
+    color: #094676;
+}
+.contact .contact-us .mail a{
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    color: #62a0cb 
+}
+/* ----------------------- section rights ------------ */
+.rights{
+    background-color: #053557;
+    color:  #FFF;
+    padding: 15px 0;
+}
+.rights p{
+    width: 350px;
+    margin: auto;
+    font-size: 14px
+}
+.rights p span{
+    color: #f57f21
+}
